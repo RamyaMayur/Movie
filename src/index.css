@@ -1,0 +1,154 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family:cursive;
+}
+
+.nav-content{
+  max-width: 700px;
+  margin: auto;
+  height: 60px;
+  background-color: lavender;
+  display: flex;
+  /* flex to make vertical things to horizontal */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-content div a{
+  font-size: 25px;
+  text-decoration: none;
+  color: crimson;
+  margin: 0px 10px;
+}
+
+.nav-content div a:hover{
+  background-color: whitesmoke;
+}
+
+.home-content{
+  max-width: 700px;
+  margin: auto;
+}
+
+.movies-list{
+  background-color: white;
+  border-right: 1px rgb(150, 129, 129) solid;
+  border-bottom: 1px rgb(150, 129, 129) solid;
+  margin-bottom: 10px;
+}
+
+.movies-list a{
+  text-decoration: none;
+  color: black;
+}
+
+.movies-list:hover{
+  box-shadow: 5px 5px 15px rgb(106, 106, 122);
+  transition: 0.1s;
+  background-color: lavender;
+}
+
+.movies-list h1{
+  color: crimson;
+  margin: 0px 3px;
+}
+
+.movies-list h2{
+  margin: 0px 5px;
+}
+
+#loader{
+  position: fixed;
+  top: 230px;
+  left: 650px;
+  width: 100px;
+  height: 100px;
+  border-top: solid black 2px;
+  border-left: solid red 2px;
+  border-radius: 50%;
+  animation-name: loader;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes loader{
+  0% {
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.create-movie{
+  margin: auto;
+  width: 700px;
+  /* height: 100vh; */
+  background-color: rgb(219, 181, 165);
+}
+
+#btn{
+  width: 70px;
+  height: 30px;
+  margin-top: 50px;
+}
+
+#btn:hover{
+  color: blueviolet;
+}
+
+.create-movie form{
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 200px 400px;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.create-movie form label{
+  font-size: 20px;
+  font-weight: bold;
+  color: crimson;
+}
+
+.create-movie form input{
+  height: 35px;
+  border-radius: 7px solid black;
+
+}
+
+.create-movie form input::placeholder{
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+#sub{
+  align-items: center;
+  width: 70px;
+  margin-left: 120px;
+}
+
+.not-found {
+  align-items: center;
+  /* margin: auto; */
+  /* background-color:rgb(233, 233, 127); */
+  color: crimson;
+  margin: inline block;
+  padding: 20px;
+  margin-left: 100px;
+}
+
+#not-found h1,h2{
+  margin: auto;
+  /* justify-content: space-around; */
+  margin: inline block;
+}
+
+.not-found a{
+  margin: inline block;
+}
+
+
+
+

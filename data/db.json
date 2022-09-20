@@ -1,0 +1,52 @@
+{
+  "movies": [
+    {
+      "mName": " Charliee 777",
+      "hero": "Rakshith",
+      "genere": "Drama",
+      "poster": "https://th.bing.com/th/id/OIP.O5K7mLW6PQAqhGJdcG77HgHaFM?w=253&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+      "trailer": "https://www.youtube.com/embed/bmAnwpNyOVo",
+      "id": 1
+    },
+    {
+      "mName": " KGF 2",
+      "hero": "Yash",
+      "genere": "Action",
+      "poster": "https://th.bing.com/th/id/OIP.q7IhJ9woeqGNu-rjSff6mQAAAA?w=197&h=127&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+      "trailer": "https://www.youtube.com/embed/JKa05nyUmuQ",
+      "id": 2
+    },
+    {
+      "mName": " Vikram",
+      "hero": "Kamal Hasan",
+      "genere": "Action",
+      "id": 3,
+      "poster": "https://th.bing.com/th/id/OIP.Hj7qX-e26hUziMiVPUaQQgHaLP?w=182&h=278&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+      "trailer": "https://www.youtube.com/embed/OKBMCL-frPU"
+    },
+    {
+      "mName": "Pushpa",
+      "hero": "Allu Arjun",
+      "genere": "Action",
+      "id": 4,
+      "poster": "https://th.bing.com/th/id/OIP.DaPdaYc85_15V-XQ5oerHQAAAA?w=164&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+      "trailer": "https://www.youtube.com/embed/Q1NKMPhP8PY"
+    },
+    {
+      "mName": "Doctor Strange",
+      "hero": "Benedict Cumberbatch",
+      "genere": "American Super Hero",
+      "poster": "https://th.bing.com/th/id/OIP.QZtKtP2hrIBoUQ677AQvqwHaKh?w=182&h=259&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+      "trailer": "https://www.youtube.com/embed/aWzlQ2N6qqg",
+      "id": 5
+    },
+    {
+      "mName": "The Batman",
+      "hero": "Robert Pattinson",
+      "genere": "Mystery",
+      "poster": "https://th.bing.com/th/id/OIP.vfmPlR64T3JM7at1inMHJAHaK-?w=182&h=270&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+      "trailer": "https://www.youtube.com/embed/mqqft2x_Aa4",
+      "id": 6
+    }
+  ]
+}
